@@ -112,4 +112,8 @@ export class WizardComponent implements AfterContentInit {
     this._isCompleted = true;
   }
 
+  public resetIsCompleted(): void {
+    this._isCompleted = false
+  }
+
 }
